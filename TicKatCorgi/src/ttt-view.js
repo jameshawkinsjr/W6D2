@@ -18,7 +18,7 @@ class View {
     try {
       this.game.playMove($square.attr('pos'));
     } catch (err) {
-      alert("Invalid Position, idiot.")
+      alert("Invalid Position!")
     }
 
     // this is referring to the <li></li>
