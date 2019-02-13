@@ -1,0 +1,171 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: 456px;
+  padding: 0px;
+}
+
+li {
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.emoji {
+  opacity: 1;
+}
+
+
+li[target="0"] {
+  cursor: pointer;
+  background-image: url("http://placecorgi.com/100/100");
+  background-size: cover;
+  /* background: rgba(100, 148, 237, 0.878); */
+}
+
+li[target="1"] {
+  cursor: pointer;
+  background-image: url("http://placecorgi.com/100/101");
+  background-size: cover;
+  /* background: rgba(100, 148, 237, 0.878); */
+}
+
+li[target="2"] {
+  cursor: pointer;
+  background-image: url("http://placecorgi.com/100/102");
+  background-size: cover;
+  /* background: rgba(100, 148, 237, 0.878); */
+}
+
+li[target="3"] {
+  cursor: pointer;
+  background-image: url("http://placecorgi.com/100/103");
+  background-size: cover;
+  /* background: rgba(100, 148, 237, 0.878); */
+}
+
+li[target="4"] {
+  cursor: pointer;
+  background-image: url("http://placecorgi.com/100/104");
+  background-size: cover;
+  /* background: rgba(100, 148, 237, 0.878); */
+}
+
+li[target="5"] {
+  cursor: pointer;
+  background-image: url("http://placecorgi.com/100/105");
+  background-size: cover;
+  /* background: rgba(100, 148, 237, 0.878); */
+}
+
+li[target="6"] {
+  cursor: pointer;
+  background-image: url("http://placecorgi.com/100/106");
+  background-size: cover;
+  /* background: rgba(100, 148, 237, 0.878); */
+}
+
+li[target="7"] {
+  cursor: pointer;
+  background-image: url("http://placecorgi.com/103/107");
+  background-size: cover;
+  /* background: rgba(100, 148, 237, 0.878); */
+}
+
+li[target="8"] {
+  cursor: pointer;
+  background-image: url("http://placecorgi.com/120/108");
+  background-size: cover;
+  /* background: rgba(100, 148, 237, 0.878); */
+}
+
+li[target="9"] {
+  cursor: pointer;
+  background-image: url("http://placecorgi.com/100/109");
+  background-size: cover;
+  /* background: rgba(100, 148, 237, 0.878); */
+}
+
+li[target="0"]:hover {
+  cursor: pointer;
+  background-image: url("http://placekitten.com/100/100");
+  background-size: cover;
+  /* background: rgba(100, 148, 237, 0.878); */
+}
+
+li[target="1"]:hover {
+  cursor: pointer;
+  background-image: url("http://placekitten.com/100/101");
+  background-size: cover;
+  /* background: rgba(100, 148, 237, 0.878); */
+}
+
+li[target="2"]:hover {
+  cursor: pointer;
+  background-image: url("http://placekitten.com/100/102");
+  background-size: cover;
+  /* background: rgba(100, 148, 237, 0.878); */
+}
+
+li[target="3"]:hover {
+  cursor: pointer;
+  background-image: url("http://placekitten.com/100/103");
+  background-size: cover;
+  /* background: rgba(100, 148, 237, 0.878); */
+}
+
+li[target="4"]:hover {
+  cursor: pointer;
+  background-image: url("http://placekitten.com/100/104");
+  background-size: cover;
+  /* background: rgba(100, 148, 237, 0.878); */
+}
+
+li[target="5"]:hover {
+  cursor: pointer;
+  background-image: url("http://placekitten.com/100/105");
+  background-size: cover;
+  /* background: rgba(100, 148, 237, 0.878); */
+}
+
+li[target="6"]:hover {
+  cursor: pointer;
+  background-image: url("http://placekitten.com/100/106");
+  background-size: cover;
+  /* background: rgba(100, 148, 237, 0.878); */
+}
+
+li[target="7"]:hover {
+  cursor: pointer;
+  background-image: url("http://placekitten.com/103/107");
+  background-size: cover;
+  /* background: rgba(100, 148, 237, 0.878); */
+}
+
+li[target="8"]:hover {
+  cursor: pointer;
+  background-image: url("http://placekitten.com/120/108");
+  background-size: cover;
+  /* background: rgba(100, 148, 237, 0.878); */
+}
+
+li[target="9"]:hover {
+  cursor: pointer;
+  background-image: url("http://placekitten.com/100/109");
+  background-size: cover;
+  /* background: rgba(100, 148, 237, 0.878); */
+}
+
+

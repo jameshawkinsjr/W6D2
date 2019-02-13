@@ -1,0 +1,157 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: 456px;
+  padding: 0px;
+}
+
+li {
+  width: 150px;
+  height: 150px;
+  /* border: 1px solid black; */
+  /* border-radius: 5px; */
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.emoji {
+  opacity: 1;
+}
+
+
+li.active .top{
+  cursor: pointer;
+  background-image: url("../imgs/top.jpg");
+  background-size: cover;
+  /* background: rgba(100, 148, 237, 0.878); */
+}
+
+li[target="0"] {
+  cursor: pointer;
+  background-image: url("../imgs/top.jpg");
+  background-size: cover;
+  /* background: rgba(100, 148, 237, 0.878); */
+}
+
+
+li[target="8"]:hover {
+  cursor: pointer;
+  background-image: url("../imgs/bottom.jpg");
+  background-size: cover;
+  /* background: rgba(100, 148, 237, 0.878); */
+}
+
+
+li[target="2"] {
+  cursor: pointer;
+  background-image: url("../imgs/top.jpg");
+  background-size: cover;
+  /* background: rgba(100, 148, 237, 0.878); */
+}
+
+li[target="3"] {
+  cursor: pointer;
+  background-image: url("../imgs/middle.jpg");
+  background-size: cover;
+  /* background: rgba(100, 148, 237, 0.878); */
+}
+
+li[target="4"] {
+  cursor: pointer;
+  background-image: url("../imgs/middle.jpg");
+  background-size: cover;
+  /* background: rgba(100, 148, 237, 0.878); */
+}
+
+li[target="5"] {
+  cursor: pointer;
+  background-image: url("../imgs/middle.jpg");
+  background-size: cover;
+  /* background: rgba(100, 148, 237, 0.878); */
+}
+
+li[target="6"] {
+  cursor: pointer;
+  background-image: url("../imgs/bottom.jpg");
+  background-size: cover;
+  /* background: rgba(100, 148, 237, 0.878); */
+}
+
+li[target="7"] {
+  cursor: pointer;
+  background-image: url("../imgs/bottom.jpg");
+  background-size: cover;
+  /* background: rgba(100, 148, 237, 0.878); */
+}
+
+li[target="8"] {
+  cursor: pointer;
+  background-image: url("../imgs/bottom.jpg");
+  background-size: cover;
+  /* background: rgba(100, 148, 237, 0.878); */
+}
+
+li[target="0"]:hover {
+  cursor: pointer;
+  background-image: url("../imgs/top.jpg");
+  background-size: cover;
+  /* background: rgba(100, 148, 237, 0.878); */
+}
+
+li[target="1"]:hover {
+  cursor: pointer;
+  background-image: url("../imgs/top.jpg");
+  background-size: cover;
+  /* background: rgba(100, 148, 237, 0.878); */
+}
+
+li[target="2"]:hover {
+  cursor: pointer;
+  background-image: url("../imgs/top.jpg");
+  background-size: cover;
+  /* background: rgba(100, 148, 237, 0.878); */
+}
+
+li[target="3"]:hover {
+  cursor: pointer;
+  background-image: url("../imgs/middle.jpg");
+  background-size: cover;
+  /* background: rgba(100, 148, 237, 0.878); */
+}
+
+li[target="4"]:hover {
+  cursor: pointer;
+  background-image: url("../imgs/middle.jpg");
+  background-size: cover;
+  /* background: rgba(100, 148, 237, 0.878); */
+}
+
+li[target="5"]:hover {
+  cursor: pointer;
+  background-image: url("../imgs/middle.jpg");
+  background-size: cover;
+  /* background: rgba(100, 148, 237, 0.878); */
+}
+
+li[target="6"]:hover {
+  cursor: pointer;
+  background-image: url("../imgs/bottom.jpg");
+  background-size: cover;
+  /* background: rgba(100, 148, 237, 0.878); */
+}
+
+li[target="7"]:hover {
+  cursor: pointer;
+  background-image: url("../imgs/bottom.jpg");
+  background-size: cover;
+  /* background: rgba(100, 148, 237, 0.878); */
+}
